@@ -36,8 +36,6 @@ public class Main {
     }
 
     public static void level1(Calendar_Working calendarWorking) {
-        Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter the date to check if it is a holiday(DD.MM.YYYY):");
         String input = sc.nextLine().strip();
 
@@ -51,8 +49,6 @@ public class Main {
     }
 
     public static void level2(Calendar_Working calendarWorking) {
-        Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter the date to check if it is a holiday(DD.MM.YYYY.hh.mm.+-z):");
         String input = sc.nextLine().strip();
 
